@@ -10,8 +10,8 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome)
 
-        val nick:String =  intent.getStringExtra("nick")
-        txtNombre.text = "Hola " + nick
+        val nick:String =  this.intent.getStringExtra("nick")
+        txtNombre.text = "Hola $nick"
 
 
     }

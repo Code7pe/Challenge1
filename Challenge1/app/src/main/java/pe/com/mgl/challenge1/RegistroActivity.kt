@@ -13,11 +13,8 @@ class RegistroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
-
-        val nick = edtNick.text
-
         btnAceptar.setOnClickListener {
-            val nick = edtNick.text
+            var nick = edtNick.text.toString()
 //            Toast.makeText(this, "nick: $nick", Toast.LENGTH_LONG).show()
             val intent = Intent(this, WelcomeActivity::class.java)
             intent.putExtra("nick", nick)
