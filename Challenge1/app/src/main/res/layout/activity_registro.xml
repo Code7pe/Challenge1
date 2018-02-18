@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pe.com.mgl.challenge1.RegistroActivity">
+
+    <EditText
+        android:id="@+id/edtNick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="alias / nick"/>
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombres"/>
+
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="apellidos"/>
+    <EditText
+        android:id="@+id/edtDni"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dni"/>
+    <EditText
+        android:id="@+id/edtFNac"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fecha de nacimiento"/>
+
+    <Spinner
+        android:id="@+id/spOcupacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fecha de nacimiento"/>
+    <EditText
+        android:id="@+id/edtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="direccion"/>
+
+    <EditText
+        android:id="@+id/edtDistrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="distrito"/>
+    
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiero unirme!"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
