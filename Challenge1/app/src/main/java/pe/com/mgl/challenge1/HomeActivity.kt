@@ -1,13 +1,15 @@
 package pe.com.mgl.challenge1
 
-import android.content.Intent
+
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import org.jetbrains.anko.intentFor
+import org.jetbrains.anko.startActivity
 
 class HomeActivity : AppCompatActivity() {
 
-//    var lateinit persona : String
+   // lateinit var persona : String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         // Invocar al método onCreate del padre
@@ -29,8 +31,11 @@ class HomeActivity : AppCompatActivity() {
 
     fun ingresar(view: View) {
 
-        val intent = Intent(this, RegistroActivity::class.java)
-        startActivity(intent)
+
+//        startActivity(intentFor<RegistroActivity>())
+        startActivity<RegistroActivity>()
+//        val intent = Intent(this, RegistroActivity::class.java)
+//        startActivity(intent)
 
     }
 

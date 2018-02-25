@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Challenge1.iml" filepath="$PROJECT_DIR$/Challenge1.iml" />
       <module fileurl="file://D:\Proyectos\Code7\Challenge1\Challenge1\Challenge1.iml" filepath="D:\Proyectos\Code7\Challenge1\Challenge1\Challenge1.iml" />
+      <module fileurl="file://D:\Code7\Proyectos\Challenge1\Challenge1\Challenge1.iml" filepath="D:\Code7\Proyectos\Challenge1\Challenge1\Challenge1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://D:\Proyectos\Code7\Challenge1\Challenge1\app\app.iml" filepath="D:\Proyectos\Code7\Challenge1\Challenge1\app\app.iml" />
+      <module fileurl="file://D:\Code7\Proyectos\Challenge1\Challenge1\app\app.iml" filepath="D:\Code7\Proyectos\Challenge1\Challenge1\app\app.iml" />
     </modules>
   </component>
 </project>
